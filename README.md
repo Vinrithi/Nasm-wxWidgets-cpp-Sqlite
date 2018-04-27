@@ -10,8 +10,11 @@ Software Requirements
 Linux OS -- nasm runs in linux. I use Ubuntu
 Code editor (codeblocks) -optional  -- use Ubuntu software downloader to download
 wxWidgets -- https://wiki.wxwidgets.org/Installing_and_configuring_under_Ubuntu
+sqlite browser -- it is a windows application that is used to view sqlite databases. However, it can run in Linux if you run it using win application. http://sqlitebrowser.org/
 
 How it works.
+
+Please make sure that you have sqlite3.h file in /usr/bin/. If not, please use the command 'sudo apt-get install sqlite3 libsqlite3-dev' without the ''. You can also download it outside and copy it to the bin folder.
 
 The backend i.e. connecting and executing the queries in the database are done using assembly language. 
 
