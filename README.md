@@ -8,8 +8,11 @@ Here, I will give a short summary of how to do it.
 Software Requirements
 
 Linux OS -- nasm runs in linux. I use Ubuntu
+
 Code editor (codeblocks) -optional  -- use Ubuntu software downloader to download
+
 wxWidgets -- https://wiki.wxwidgets.org/Installing_and_configuring_under_Ubuntu
+
 sqlite browser -- it is a windows application that is used to view sqlite databases. However, it can run in Linux if you run it using win application. http://sqlitebrowser.org/
 
 How it works.
