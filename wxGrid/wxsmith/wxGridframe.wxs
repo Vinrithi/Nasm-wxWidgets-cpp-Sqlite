@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="wxGridFrame">
+		<title>CHELSEA FOOTBALL CLUB PLAYER&apos;S DETAILS</title>
+		<size>1347,582</size>
+		<id_arg>0</id_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxGrid" name="ID_TABLE1" variable="TABLE1" member="yes">
+			<cols>5</cols>
+			<rows>25</rows>
+			<readonly>1</readonly>
+			<defaultcolsize>115</defaultcolsize>
+			<collabels>
+				<item>PL_ID</item>
+				<item>SURNAME</item>
+				<item>OTHER NAME</item>
+				<item>AGE</item>
+				<item>POSITION</item>
+			</collabels>
+			<pos>16,72</pos>
+			<size>664,312</size>
+			<focused>1</focused>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>PLAYERS DATA</label>
+			<pos>280,24</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>FreeSerif</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_REPORT" variable="REPORT" member="yes">
+			<pos>8,424</pos>
+			<size>656,64</size>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>FreeSans</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_PLID" variable="PL_ID" member="yes">
+			<pos>808,56</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_NAME" variable="SURNAME" member="yes">
+			<pos>808,104</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_AGE" variable="AGE" member="yes">
+			<pos>808,200</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxButton" name="ID_UPDATE" variable="UPDATE" member="yes">
+			<label>UPDATE</label>
+			<pos>768,320</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+			<handler function="OnUPDATEClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>UPDATE/DELETE RECORD</label>
+			<pos>784,24</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>FreeSerif</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>PL__ID:</label>
+			<pos>752,56</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>SURNAME:</label>
+			<pos>720,104</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>AGE:</label>
+			<pos>760,200</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_DELETE" variable="DELETE" member="yes">
+			<label>DELETE</label>
+			<pos>896,320</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+			<handler function="OnDELETEClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+			<label>OTHER NAME:</label>
+			<pos>696,152</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_OTHERNAME" variable="OTHERNAME" member="yes">
+			<pos>808,152</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+			<label>POSITION:</label>
+			<pos>728,248</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_POSITION" variable="POSITION" member="yes">
+			<pos>808,248</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_PLIDIN" variable="PL_IDIN" member="yes">
+			<pos>1064,56</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_SURNAMEIN" variable="SURNAMEIN" member="yes">
+			<pos>1064,104</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_OTHERNAMEIN" variable="OTHERNAMEIN" member="yes">
+			<pos>1064,152</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_AGEIN" variable="AGEIN" member="yes">
+			<pos>1064,200</pos>
+			<size>160,27</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+			<label>INSERT NEW RECORD</label>
+			<pos>1064,24</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>FreeSerif</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT9" variable="StaticText9" member="yes">
+			<label>Transaction Success:</label>
+			<pos>16,400</pos>
+			<font>
+				<size>11</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT11" variable="StaticText11" member="yes">
+			<label>Query Box:</label>
+			<pos>984,384</pos>
+			<font>
+				<size>11</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_QUERYBOX" variable="QUERYBOX" member="yes">
+			<pos>776,424</pos>
+			<size>488,64</size>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>FreeSans</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_INSERT" variable="INSERT" member="yes">
+			<label>INSERT</label>
+			<pos>1112,320</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Sans</face>
+			</font>
+			<handler function="OnINSERTClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxComboBox" name="ID_COMBOBOX1" variable="POSITIONIN" member="yes">
+			<content>
+				<item>Goalkeeper</item>
+				<item>Right back</item>
+				<item>Left back</item>
+				<item>Stopper</item>
+				<item>Sweeper</item>
+				<item>Left Midfielder</item>
+				<item>Right Midfielder</item>
+				<item>Defensive Midfielder</item>
+				<item>Forward</item>
+				<item>Striker</item>
+			</content>
+			<pos>1064,248</pos>
+			<size>160,29</size>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt-F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-1</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>
